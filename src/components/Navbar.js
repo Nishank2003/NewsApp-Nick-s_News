@@ -8,12 +8,12 @@ export class Navbar extends Component {
   render() {
     return (
       <>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div
             className="container-fluid"
-            style={{
-              backgroundColor: "#e3f2fd",
-            }}
+            // style={{
+            //   backgroundColor: "#e3f2fd",
+            // }}
           >
             <Link className="navbar-brand" to="/intro">
               <b>Nick's News</b>
