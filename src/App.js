@@ -16,7 +16,7 @@ export default class App extends Component {
         <Routes>
           <Route path="/" element={<Intro />} />
           <Route path="/intro" element={<Intro />} />
-          <Route path="/home" element={<News />} />
+          <Route path="/home" element={<News pageSize={8} />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
