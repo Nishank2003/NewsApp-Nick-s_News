@@ -14,8 +14,11 @@ export class Intro extends Component {
       >
         <h2>
           <i>
-            Nick's News is a website to view quick news articles and keep
-            yourself up to date.
+            <br />
+            <b>
+              Nick's News is a website to view quick news articles and keep
+              yourself up to date.
+            </b>
           </i>
         </h2>
         <div
