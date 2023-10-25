@@ -9,7 +9,7 @@ import About from "./components/About";
 
 export default class App extends Component {
   c = "Nick";
-  pageSize = 8;
+  pageSize = 12;
   render() {
     return (
       <div>
